@@ -2983,3 +2983,38 @@ section,
   color: #2b2b3c;
   box-shadow: 0 1px 3px rgba(44,44,44,0.08);
 }
+
+  .card-bg {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .card-bg img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .card-body {
+    text-align: center;
+  }
+
+  .read-more {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 10px;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+
+  .read-more .arrow {
+    margin-left: 6px;
+    transition: transform 0.3s;
+  }
+
+  .read-more:hover .arrow {
+    transform: translateY(2px);
+  }
